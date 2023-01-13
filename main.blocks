@@ -4,10 +4,10 @@
         . # # # . 
         . # . # . 
         . . . . .
-        `</field></block></statement></block><block type="device_button_event" id="~4=+|iTL7beE~CxEk}G5" x="241" y="3"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="s2*i*0Ukn#g!i-1]O4%]"><field name="LEDS">`
+        `</field><next><block type="soundExpression_playSoundEffect" id="Au;Xw?OddHg]DUZ`rsIl"><field name="mode">SoundExpressionPlayMode.UntilDone</field><value name="sound"><shadow type="soundExpression_builtinSoundEffect" id="^9_=ce#zOzt`r)hv%x(x"><field name="soundExpression">soundExpression.happy</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="~4=+|iTL7beE~CxEk}G5" x="241" y="3"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="s2*i*0Ukn#g!i-1]O4%]"><field name="LEDS">`
         . . . . . 
         . # # # . 
         . . # . . 
         . # # # . 
         . . . . .
-        `</field></block></statement></block><block type="device_button_event" id="e%xgv!j:mbK#6ZGz:1*W" x="550" y="7"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="basic_show_icon" id="IJ]N`1ue}l2VgQPCK_hw"><field name="i">IconNames.Heart</field></block></statement></block></xml>
+        `</field><next><block type="soundExpression_playSoundEffect" id="0[a;ZkK4uv9/EHX5eXY*"><field name="mode">SoundExpressionPlayMode.UntilDone</field><value name="sound"><shadow type="soundExpression_builtinSoundEffect" id="Bem1AXf/8lN|$h]Av]`i"><field name="soundExpression">soundExpression.happy</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="e%xgv!j:mbK#6ZGz:1*W" x="550" y="7"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="soundExpression_playSoundEffect" id=";0*%3lQa[Esh[m1JtO|A"><field name="mode">SoundExpressionPlayMode.InBackground</field><value name="sound"><shadow type="soundExpression_builtinSoundEffect" id="F2^A`^Hw*Pmh3*c$m)94"><field name="soundExpression">soundExpression.happy</field></shadow></value><next><block type="basic_show_icon" id="IJ]N`1ue}l2VgQPCK_hw"><field name="i">IconNames.Heart</field></block></next></block></statement></block></xml>
