@@ -1,22 +1,7 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showLeds(`
-        . . . . .
-        . # # # .
-        . . # . .
-        . # # # .
-        . . . . .
-        `)
-    music.playSoundEffect(music.builtinSoundEffect(soundExpression.happy), SoundExpressionPlayMode.UntilDone)
+    basic.showString("from the other side ")
 })
 input.onButtonPressed(Button.B, function () {
-    music.playSoundEffect(music.builtinSoundEffect(soundExpression.happy), SoundExpressionPlayMode.InBackground)
-    basic.showIcon(IconNames.Heart)
+    basic.showIcon(IconNames.Happy)
 })
-basic.showLeds(`
-    . . . . .
-    . # . # .
-    . # # # .
-    . # . # .
-    . . . . .
-    `)
-music.playSoundEffect(music.builtinSoundEffect(soundExpression.happy), SoundExpressionPlayMode.UntilDone)
+basic.showString("Hello!")
